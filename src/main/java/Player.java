@@ -11,8 +11,8 @@ public class Player {
     }
 
     //metoder plus eller likamed value
-    public void addToScore(int score) {
-        this.score = 0;
+    public void addToScore(int scoreToAdd) {
+        this.score += scoreToAdd;
     }
 
     public int getScore() {
